@@ -50,7 +50,7 @@ def open_file():
 
                 out = Image.alpha_composite(base, txt)
                 out.save(f"{result}results.png")
-
+                out.show()
 
             # wm_font = ImageFont.truetype('arial', 60)
             # result = ImageDraw.Draw(image1)
